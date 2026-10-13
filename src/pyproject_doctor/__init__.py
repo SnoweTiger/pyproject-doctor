@@ -1,2 +1,4 @@
 def main() -> None:
-    print("Hello from pyproject-doctor!")
+    from pyproject_doctor.server import main as run_server
+
+    run_server()
