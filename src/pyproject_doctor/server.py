@@ -13,7 +13,7 @@ def inspect(path: str) -> InspectionResult:
 
 
 @mcp.tool()
-def ruff_ckeck(path: str) -> RuffChecksResult:
+def ruff_check(path: str) -> RuffChecksResult:
     """Run Ruff lint and formatting checks for one project."""
     return run_ruff_checks(path)
 
