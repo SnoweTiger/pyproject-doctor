@@ -1,5 +1,9 @@
 # PyProject Doctor
 
+[![Lint and format](https://github.com/SnoweTiger/pyproject-doctor/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/SnoweTiger/pyproject-doctor/actions/workflows/lint.yml)
+[![Tests](https://github.com/SnoweTiger/pyproject-doctor/actions/workflows/tests.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/SnoweTiger/pyproject-doctor/actions/workflows/tests.yml)
+
+
 A local MCP server for inspecting Python projects and checking their code with Ruff.
 
 Give your MCP client the path to one project. PyProject Doctor detects package manager signals, reports the project's local Python environment, and runs lint and formatting checks. Results are returned as structured Pydantic models.
